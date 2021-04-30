@@ -1,0 +1,5 @@
+wip: --tags @wip --format html --out report.html --format pretty
+register: --tags @register --format html --out ReportTestRegister.html --format pretty
+login: --tags @login --tags @user_login --format html --out ReportTestLogin.html --format pretty
+view: --tags @view --tags @view_product --format html --out ReportTestView.html --format pretty
+all: --tags @all --format html --out ReportAllTests.html --format pretty
